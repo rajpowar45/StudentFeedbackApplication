@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#850C9A"
+    tools:context=".Adminpage1">
+
+    <Button
+        android:id="@+id/addStud"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="144dp"
+        android:background="#FF5722"
+        android:text="ADD STUDENT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rankbutn"
+        android:layout_width="128dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="180dp"
+        android:background="#FF5722"
+        android:text="View Ranking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStud" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="132dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:background="#FF5722"
+        android:text="view student"
+        app:layout_constraintBottom_toTopOf="@+id/rankbutn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStud"
+        app:layout_constraintVertical_bias="0.134" />
+</androidx.constraintlayout.widget.ConstraintLayout>
